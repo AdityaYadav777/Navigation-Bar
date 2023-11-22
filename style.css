@@ -1,0 +1,33 @@
+*{
+    text-decoration: none;
+}
+.nav-bar{
+    background: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+.logo a{
+    font-size: 35px;
+    color:  white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+li a{
+    color:white;
+    font-size: 18px;
+    margin: 10px;
+    margin-right: 20px;
+}
+li a:hover{
+    color: aqua;
+}
